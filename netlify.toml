@@ -1,6 +1,6 @@
 [build]
-  command = "yarn build"
-  publish = "public"
+  command = "yarn build-storybook"
+  publish = "storybook"
 
 [context.storybook]
   command = "yarn build-storybook"
